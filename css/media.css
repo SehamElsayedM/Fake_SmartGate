@@ -1,0 +1,193 @@
+@media (max-width : 750px) {
+    .container {
+        margin: 0px 0px;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+    
+    nav .row {
+        height: 00vh;
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        background: rgba(52, 52, 52, 0.717);
+        display: block;
+        top: 0px;
+    }
+    nav .row ul {
+        width: 90%;
+        display: none;
+         height:350px;
+         background-color: rgb(253, 253, 253);
+         margin: auto;
+         margin-top: 60px;
+         border-radius: 10px;
+        }
+    nav .row ul li{height: 30px;margin: 10px 0px;}
+    .navbar-brand {display: none;}
+    nav .row ul li a {color: rgb(0, 0, 0);font-size: 18px;margin-right: 20px;}
+    .toggeller {
+        display: block;
+        margin-right: 20px;
+        
+    }
+
+    nav .login button {
+        margin: 0px 0px;
+        padding: 7px;
+        left: 0px;
+    }
+
+    /* ====== */
+    header .row .col-lg-4 {}
+
+    header .row .col-lg-4 img {
+        padding-left: 80px;
+        width: 90%;
+        animation-duration: 5s;
+        margin: auto;
+    }
+
+    .absoluteImage1 img {
+        width: 50px;
+        top: 150px;
+    }
+
+    .absoluteImage2 {
+        width: 100px;
+        height: 100px;
+        border: 20px solid rgb(74, 113, 206);
+        top: 70px;
+        left: -55px;
+    }
+
+    .row .col-lg-7 h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .row .col-lg-7 p {
+        font-size: 16px;
+    }
+
+    /* ===== */
+    .news {
+        margin-top: 50px;
+    }
+
+    .news .row {
+        justify-content: center;
+    }
+
+    .news .row .card {
+        width: 46%;
+        margin: 0px 5px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    /* ==== */
+
+    .services .row .card {
+        width: 46%;
+        height: 300px;
+        margin: 10px 5px;
+    }
+
+    .services .row .card .image1 {
+        padding: 0px;
+        margin-right: 10px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .services .row .card .image2 {
+        padding: 0px;
+        margin-right: 10px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .services .row .card .image3 {
+        padding: 0px;
+        margin-right: 10px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .services .row .card .image4 {
+        padding: 0px;
+        margin-right: 10px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .services .row .card .data {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .services .row .card .over {
+        padding-top: 50px;
+    }
+
+    .services .row .card .over .data h4 {
+        font-size: 15px;
+    }
+
+    .services .row .card .over .data p {
+        font-size: 14px;
+    }
+
+    /* ===== */
+    .services .row .Card {
+        width: 350px;
+        margin: auto;
+    }
+
+    /* ===== */
+    .evnets .row .col-lg-4 {
+        margin: 10px 0px;
+    }
+
+    .internships .row .col-lg-4 .Card {
+        margin-bottom: 20px;
+    }
+
+    .internships .row .col-lg-4 .Card img {
+        height: 200px;
+    }
+
+    /* === */
+    .contact .row .col-lg-6 iframe {
+        width: 100%;
+    }
+
+    .contact .row .col-lg-6 .form-group input {
+        width: 100%;
+    }
+
+    .contact .row .col-lg-6 .form-group textarea {
+        width: 100%;
+    }
+
+    footer .col-lg-4 {
+        height: 150px;
+    }
+
+    footer .form-group button {
+        height: 40px;
+    }
+
+    footer .form-group input {
+        height: 40px;
+    }
+
+    h2::before {
+        right: 10px;
+    }
+}
